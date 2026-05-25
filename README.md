@@ -68,18 +68,62 @@ Learn_Pandas_From_Scratch/
 
 ## Setup
 
-1. Install Python 3.9+.
-2. Create and activate a virtual environment.
-3. Install Pandas:
+### Create a Python Virtual Environment
+
+1. Check Python is installed:
+
+```bash
+python3 --version
+```
+
+2. Create a virtual environment in the project folder:
+
+```bash
+python3 -m venv .venv
+```
+
+3. Activate the environment:
+
+macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+Windows (PowerShell):
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+4. Upgrade pip (recommended):
+
+```bash
+python -m pip install --upgrade pip
+```
+
+5. Install dependencies:
 
 ```bash
 pip install pandas
 ```
 
-Optional (recommended for notebooks):
+Optional (recommended for notebooks/plots):
 
 ```bash
 pip install jupyter matplotlib seaborn
+```
+
+6. Verify installation:
+
+```bash
+python -c "import pandas as pd; print(pd.__version__)"
+```
+
+7. Deactivate when done:
+
+```bash
+deactivate
 ```
 
 ## How to Use This Repository
