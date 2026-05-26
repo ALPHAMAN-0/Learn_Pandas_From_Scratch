@@ -47,6 +47,10 @@ Practice with guided tasks and expected outputs:
 4. Fill missing values with a strategy you explain.
 5. Group by category and compute mean/sum/count.
 
+### LeetCode Practice
+
+- [LeetCode Practice Notes](PANDAS_LEETCODE_PRACTICE.md)
+
 ### 4) Mini Projects (`mini-projects/`)
 Build confidence with end-to-end tasks:
 
