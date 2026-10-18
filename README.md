@@ -5,12 +5,12 @@ A complete beginner-friendly Pandas learning repository with **notes**, **exampl
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[Learn Pandas From Scratch]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+    Introduction[Introduction] --> Leetcode_Practice[Leetcode Practice]
+    Clean_Data["Clean Data"] --> Leetcode_Practice
+    Correlations[Correlations] --> Leetcode_Practice
+    Plotting[Plotting] --> Leetcode_Practice
+    Test_Folder["Test Folder"] --> Leetcode_Practice
 ```
 
 
