@@ -2,6 +2,18 @@
 
 A complete beginner-friendly Pandas learning repository with **notes**, **examples**, **exercises**, and **mini projects** for Python data analysis.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[Learn Pandas From Scratch]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ## Who is this for?
 
 - Beginners who know basic Python and want to start data analysis
